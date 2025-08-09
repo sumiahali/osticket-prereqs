@@ -119,8 +119,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - `php_opcache.dll`
 - Refresh the browser tab with osTicket to confirm extension errors are gone
 <p>
-![Uploading image.png…]()
-
+<img width="2238" height="1532" alt="image" src="https://github.com/user-attachments/assets/74f0909f-1c98-4273-8ecd-aa2688ad22ce" />
+<img width="2062" height="1644" alt="image" src="https://github.com/user-attachments/assets/2b8598d7-7b41-427c-8034-419244ccf01d" />
 </p>
 <br />
 
@@ -134,7 +134,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - User: `Everyone`
   - Permission: Full Control
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1644" height="1152" alt="image" src="https://github.com/user-attachments/assets/a0436209-e2f8-4e79-86cd-0715e2222440" />
+<img width="1222" height="74" alt="image" src="https://github.com/user-attachments/assets/9b92f707-42a7-468a-9710-c5a4517dfb1a" />
+<img width="1530" height="1038" alt="image" src="https://github.com/user-attachments/assets/e9b04522-5bd0-4efb-a418-be3ade8dd61a" />
 </p>
 <br />
 
@@ -146,7 +148,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Connect and create a new database:
   - Name: `osTicket`
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1368" height="970" alt="image" src="https://github.com/user-attachments/assets/afbbe192-ffe9-4f9f-9f8c-0c2b19869bc2" />
+<img width="1866" height="1184" alt="image" src="https://github.com/user-attachments/assets/0af5e7fd-dcda-4127-a11d-214d3674ff68" />
+<img width="542" height="272" alt="image" src="https://github.com/user-attachments/assets/4c0f1f7d-da4b-41df-9e4c-63c0d2117614" />
+
 </p>
 <br />
 
@@ -160,13 +165,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     - MySQL Password: `root`
 - Click **Install Now**
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1642" height="1486" alt="image" src="https://github.com/user-attachments/assets/1c2bb54b-313d-4206-8124-f96e5a0504b1" />
+<img width="1648" height="650" alt="image" src="https://github.com/user-attachments/assets/c02b022e-5e72-4977-a8cc-1e3d8fc31366" />
 </p>
 <br />
 
 Final Result
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1842" height="1644" alt="image" src="https://github.com/user-attachments/assets/61292aee-82a2-4336-9032-7e0b4296a146" />
 </p>
 
 - You should see a success message and your new help desk login page:
