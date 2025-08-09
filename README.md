@@ -77,7 +77,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - Select `C:\PHP\php-cgi.exe` as the PHP executable
 - Restart IIS (stop and start the server)
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="2126" height="1218" alt="image" src="https://github.com/user-attachments/assets/3bdad123-2bea-4b63-bda4-eeda06ffa3d2" />
+<img width="1018" height="436" alt="image" src="https://github.com/user-attachments/assets/6a4672fa-e5bf-4939-8d00-b247ab4c587d" />
+<img width="550" height="336" alt="image" src="https://github.com/user-attachments/assets/fc1d47b8-967b-487f-aacf-9b3c3ccc5cb8" />
+<img width="550" height="336" alt="image" src="https://github.com/user-attachments/assets/007003ae-531d-4c18-a625-6f6bfa758fb6" />
 </p>
 <br />
 
@@ -86,10 +89,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Select **Typical Setup**
 - After installation, launch the Configuration Wizard:
   - Choose **Standard Configuration**
-  - Set username: `root`
-  - Set password: `root`
+  - Set username and password (remember/save for later use)
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="998" height="762" alt="image" src="https://github.com/user-attachments/assets/7bf2bb27-bf67-413c-97dd-af74a518790d" />
 </p>
 <br />
 
@@ -101,7 +103,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - In IIS Manager, navigate to: **Sites > Default Web Site > osTicket**
 - On the right, click **Browse \*:80** to open osTicket in the browser
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="888" height="326" alt="image" src="https://github.com/user-attachments/assets/bdd7f210-ae04-434b-bab2-33298f32e4ec" />
+<img width="1642" height="1148" alt="image" src="https://github.com/user-attachments/assets/a989ef4d-a1a0-4897-b590-83e99dcfd1e5" />
+<img width="1646" height="1160" alt="image" src="https://github.com/user-attachments/assets/36b175fc-83ab-4ae6-8755-340d519c5284" />
+<img width="2124" height="1222" alt="image" src="https://github.com/user-attachments/assets/fcf6b1d3-8c14-4ac5-bccf-468045788c46" />
+<img width="2064" height="1648" alt="image" src="https://github.com/user-attachments/assets/a7078c8a-f44b-4e1b-825b-97fb7e427b3e" />
 </p>
 <br />
 
@@ -113,7 +119,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - `php_opcache.dll`
 - Refresh the browser tab with osTicket to confirm extension errors are gone
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+![Uploading image.png…]()
+
 </p>
 <br />
 
