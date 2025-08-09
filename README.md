@@ -89,7 +89,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Select **Typical Setup**
 - After installation, launch the Configuration Wizard:
   - Choose **Standard Configuration**
-  - Set username and password (remember/save for later use)
+  - Create a **root username and password** (remember these for later)
 <p>
 <img width="998" height="762" alt="image" src="https://github.com/user-attachments/assets/7bf2bb27-bf67-413c-97dd-af74a518790d" />
 </p>
@@ -141,12 +141,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 10. Configure the Database Using HeidiSQL
-- Install and open HeidiSQL from the folder
-- Create a new session with:
-  - Username: `root`
-  - Password: `root`
-- Connect and create a new database:
-  - Name: `osTicket`
+- Install and open **HeidiSQL** from the folder
+- Connect using your MySQL **root username and password**
+- Create a new database called `osTicket`
 <p>
 <img width="1368" height="970" alt="image" src="https://github.com/user-attachments/assets/afbbe192-ffe9-4f9f-9f8c-0c2b19869bc2" />
 <img width="1866" height="1184" alt="image" src="https://github.com/user-attachments/assets/0af5e7fd-dcda-4127-a11d-214d3674ff68" />
@@ -161,8 +158,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - Set Default Email (for ticket replies)
   - Database Settings:
     - MySQL Database: `osTicket`
-    - MySQL Username: `root`
-    - MySQL Password: `root`
+    - MySQL Username: *(your MySQL username)*
+    - MySQL Password: *(your MySQL password)*
 - Click **Install Now**
 <p>
 <img width="1642" height="1486" alt="image" src="https://github.com/user-attachments/assets/1c2bb54b-313d-4206-8124-f96e5a0504b1" />
