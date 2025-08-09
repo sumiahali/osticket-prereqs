@@ -14,60 +14,59 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10</b> (21H2)
+- Windows 11</b> (24H2)
 
 <h2>List of Prerequisites</h2>
 
 - Azure account
 - Remote Desktop Connection tool
 - Internet access
-- `osTicket-Installation-Files.zip`
+- [osTicket-Installation-Files.zip](https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD)
 
 <h2>Installation Steps</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
 1. Create and Connect to Azure VM
-- In Microsoft Azure, create a Windows 10 VM with 4 vCPUs  
-- Name the VM: `osticket-vm`  
-- Use the following credentials:  
-  - Username: `labuser`  
-  - Password: `osTicketPassword1!`  
-- Connect to the VM using Remote Desktop
+- In the **Azure Portal**, start creating a **Windows 11 Virtual Machine**
+- During the setup, create a **new Resource Group** for the VM
+- Choose a VM size with at least **2 vCPUs** and **16 GiB RAM**
+- Choose your own **VM name**, **username**, and **password** (remember for later use)
+- Connect to the VM using **Windows App**
+<p>
+<img width="1294" height="1268" alt="image" src="https://github.com/user-attachments/assets/9a7481ca-8098-4fbf-8d2d-a17a47b423b0" />
+</p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
 2. Prepare the Installation Files
-- Download the `osTicket-Installation-Files.zip` onto the VM and extract it to the desktop  
+- Download the [osTicket-Installation-Files.zip](https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD) onto the VM and extract it to the desktop
+- The folder should be called “osTicket-Installation-Files”
 - This folder contains all required dependencies and the osTicket installer
+<p>
+<img width="1618" height="1186" alt="image" src="https://github.com/user-attachments/assets/d9bf92bc-8a12-49f6-9b2f-9d55a918e4cf" />
+<img width="1224" height="904" alt="image" src="https://github.com/user-attachments/assets/844e56b1-b8eb-4fab-89a4-bbebe103d085" />
+</p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
 3. Install and Configure IIS
+- Go to Start menu → Control Panel → Programs 
 - Open "Turn Windows features on or off"
 - Enable:
   - Internet Information Services (IIS)
   - **CGI** under:
     - *World Wide Web Services → Application Development Features → [✔] CGI*
+  <p>
+<img width="1276" height="1080" alt="image" src="https://github.com/user-attachments/assets/4f6d353e-8a0a-4f58-b04b-d38d3844a318" />
+</p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
 4. Install PHP Manager and Rewrite Module
 - From the `osTicket-Installation-Files` folder, install:
   - `PHPManagerForIIS_V1.5.0.msi`
   - `rewrite_amd64_en-US.msi`
+ <p>
+<img width="1614" height="1182" alt="image" src="https://github.com/user-attachments/assets/50bcf3b9-6f00-41e9-a346-88209385b9b4" />
+</p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
 5. Set Up PHP
 - Create a new folder: `C:\PHP`
 - Extract `php-7.3.8-nts-Win32-VC15-x86.zip` into `C:\PHP`
@@ -77,11 +76,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - Go to **PHP Manager** in IIS
   - Select `C:\PHP\php-cgi.exe` as the PHP executable
 - Restart IIS (stop and start the server)
-<br />
-
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<br />
+
 6. Install MySQL
 - Install `mysql-5.5.62-win32.msi` from the folder
 - Select **Typical Setup**
@@ -89,11 +88,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - Choose **Standard Configuration**
   - Set username: `root`
   - Set password: `root`
-<br />
-
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<br />
+
 7. Install osTicket
 - Extract `osTicket-v1.15.8.zip` from the folder
 - Copy the `upload` folder to: `C:\inetpub\wwwroot`
@@ -101,11 +100,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Restart IIS
 - In IIS Manager, navigate to: **Sites > Default Web Site > osTicket**
 - On the right, click **Browse \*:80** to open osTicket in the browser
-<br />
-
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<br />
+
 8. Enable Required PHP Extensions
 - In IIS, go to **PHP Manager** > “Enable or disable an extension”
 - Enable the following:
@@ -113,11 +112,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - `php_intl.dll`
   - `php_opcache.dll`
 - Refresh the browser tab with osTicket to confirm extension errors are gone
-<br />
-
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<br />
+
 9. Configure the osTicket Config File
 - Rename the config file:
   - From: `C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php`
@@ -127,11 +126,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Add new permission:
   - User: `Everyone`
   - Permission: Full Control
-<br />
-
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<br />
+
 10. Configure the Database Using HeidiSQL
 - Install and open HeidiSQL from the folder
 - Create a new session with:
@@ -139,11 +138,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - Password: `root`
 - Connect and create a new database:
   - Name: `osTicket`
-<br />
-
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<br />
+
 11. Complete osTicket Setup in Browser
 - In the osTicket browser installer:
   - Set your Helpdesk Name
@@ -153,12 +152,15 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     - MySQL Username: `root`
     - MySQL Password: `root`
 - Click **Install Now**
-<br />
-
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<br />
+
 Final Result
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 
 - You should see a success message and your new help desk login page:
   - Admin Panel: `http://localhost/osTicket/scp/login.php`
