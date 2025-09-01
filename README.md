@@ -32,7 +32,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Choose your own **VM name**, **username**, and **password** (remember for later use)
 - Connect to the VM using **Windows App**
 <p>
-<img width="647" height="634" alt="image" src="https://github.com/user-attachments/assets/9a7481ca-8098-4fbf-8d2d-a17a47b423b0" />
+<img width="364" height="357" alt="image" src="https://github.com/user-attachments/assets/9a7481ca-8098-4fbf-8d2d-a17a47b423b0" />
 </p>
 <br />
 
@@ -41,7 +41,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - The folder should be called “osTicket-Installation-Files”
 - This folder contains all required dependencies and the osTicket installer
 <p>
-<img width="809" height="593" alt="image" src="https://github.com/user-attachments/assets/d9bf92bc-8a12-49f6-9b2f-9d55a918e4cf" />
+<img width="607" height="445" alt="image" src="https://github.com/user-attachments/assets/d9bf92bc-8a12-49f6-9b2f-9d55a918e4cf" />
 <img width="612" height="452" alt="image" src="https://github.com/user-attachments/assets/844e56b1-b8eb-4fab-89a4-bbebe103d085" />
 </p>
 <br />
