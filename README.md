@@ -32,7 +32,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Choose your own **VM name**, **username**, and **password** (remember for later use)
 - Connect to the VM using **Windows App**
 <p>
-<img width="1294" height="1268" alt="image" src="https://github.com/user-attachments/assets/9a7481ca-8098-4fbf-8d2d-a17a47b423b0" />
+<img width="647" height="634" alt="image" src="https://github.com/user-attachments/assets/9a7481ca-8098-4fbf-8d2d-a17a47b423b0" />
 </p>
 <br />
 
@@ -41,8 +41,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - The folder should be called “osTicket-Installation-Files”
 - This folder contains all required dependencies and the osTicket installer
 <p>
-<img width="1618" height="1186" alt="image" src="https://github.com/user-attachments/assets/d9bf92bc-8a12-49f6-9b2f-9d55a918e4cf" />
-<img width="1224" height="904" alt="image" src="https://github.com/user-attachments/assets/844e56b1-b8eb-4fab-89a4-bbebe103d085" />
+<img width="809" height="593" alt="image" src="https://github.com/user-attachments/assets/d9bf92bc-8a12-49f6-9b2f-9d55a918e4cf" />
+<img width="612" height="452" alt="image" src="https://github.com/user-attachments/assets/844e56b1-b8eb-4fab-89a4-bbebe103d085" />
 </p>
 <br />
 
@@ -54,7 +54,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - **CGI** under:
     - *World Wide Web Services → Application Development Features → [✔] CGI*
   <p>
-<img width="1276" height="1080" alt="image" src="https://github.com/user-attachments/assets/4f6d353e-8a0a-4f58-b04b-d38d3844a318" />
+<img width="638" height="540" alt="image" src="https://github.com/user-attachments/assets/4f6d353e-8a0a-4f58-b04b-d38d3844a318" />
 </p>
 <br />
 
@@ -63,7 +63,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - `PHPManagerForIIS_V1.5.0.msi`
   - `rewrite_amd64_en-US.msi`
  <p>
-<img width="1614" height="1182" alt="image" src="https://github.com/user-attachments/assets/50bcf3b9-6f00-41e9-a346-88209385b9b4" />
+<img width="807" height="591" alt="image" src="https://github.com/user-attachments/assets/50bcf3b9-6f00-41e9-a346-88209385b9b4" />
 </p>
 <br />
 
@@ -77,7 +77,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - Select `C:\PHP\php-cgi.exe` as the PHP executable
 - Restart IIS (stop and start the server)
 <p>
-<img width="2126" height="1218" alt="image" src="https://github.com/user-attachments/assets/3bdad123-2bea-4b63-bda4-eeda06ffa3d2" />
+<img width="1063" height="609" alt="image" src="https://github.com/user-attachments/assets/3bdad123-2bea-4b63-bda4-eeda06ffa3d2" />
 <img width="1018" height="436" alt="image" src="https://github.com/user-attachments/assets/6a4672fa-e5bf-4939-8d00-b247ab4c587d" />
 <img width="550" height="336" alt="image" src="https://github.com/user-attachments/assets/fc1d47b8-967b-487f-aacf-9b3c3ccc5cb8" />
 <img width="550" height="336" alt="image" src="https://github.com/user-attachments/assets/007003ae-531d-4c18-a625-6f6bfa758fb6" />
@@ -104,10 +104,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - On the right, click **Browse \*:80** to open osTicket in the browser
 <p>
 <img width="888" height="326" alt="image" src="https://github.com/user-attachments/assets/bdd7f210-ae04-434b-bab2-33298f32e4ec" />
-<img width="1642" height="1148" alt="image" src="https://github.com/user-attachments/assets/a989ef4d-a1a0-4897-b590-83e99dcfd1e5" />
-<img width="1646" height="1160" alt="image" src="https://github.com/user-attachments/assets/36b175fc-83ab-4ae6-8755-340d519c5284" />
-<img width="2124" height="1222" alt="image" src="https://github.com/user-attachments/assets/fcf6b1d3-8c14-4ac5-bccf-468045788c46" />
-<img width="2064" height="1648" alt="image" src="https://github.com/user-attachments/assets/a7078c8a-f44b-4e1b-825b-97fb7e427b3e" />
+<img width="821" height="574" alt="image" src="https://github.com/user-attachments/assets/a989ef4d-a1a0-4897-b590-83e99dcfd1e5" />
+<img width="823" height="580" alt="image" src="https://github.com/user-attachments/assets/36b175fc-83ab-4ae6-8755-340d519c5284" />
+<img width="797" height="458" alt="image" src="https://github.com/user-attachments/assets/fcf6b1d3-8c14-4ac5-bccf-468045788c46" />
+<img width="774" height="618" alt="image" src="https://github.com/user-attachments/assets/a7078c8a-f44b-4e1b-825b-97fb7e427b3e" />
 </p>
 <br />
 
@@ -119,8 +119,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - `php_opcache.dll`
 - Refresh the browser tab with osTicket to confirm extension errors are gone
 <p>
-<img width="2238" height="1532" alt="image" src="https://github.com/user-attachments/assets/74f0909f-1c98-4273-8ecd-aa2688ad22ce" />
-<img width="2062" height="1644" alt="image" src="https://github.com/user-attachments/assets/2b8598d7-7b41-427c-8034-419244ccf01d" />
+<img width="839" height="575" alt="image" src="https://github.com/user-attachments/assets/74f0909f-1c98-4273-8ecd-aa2688ad22ce" />
+<img width="773" height="617" alt="image" src="https://github.com/user-attachments/assets/2b8598d7-7b41-427c-8034-419244ccf01d" />
 </p>
 <br />
 
@@ -134,9 +134,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - User: `Everyone`
   - Permission: Full Control
 <p>
-<img width="1644" height="1152" alt="image" src="https://github.com/user-attachments/assets/a0436209-e2f8-4e79-86cd-0715e2222440" />
+<img width="822" height="576" alt="image" src="https://github.com/user-attachments/assets/a0436209-e2f8-4e79-86cd-0715e2222440" />
 <img width="1222" height="74" alt="image" src="https://github.com/user-attachments/assets/9b92f707-42a7-468a-9710-c5a4517dfb1a" />
-<img width="1530" height="1038" alt="image" src="https://github.com/user-attachments/assets/e9b04522-5bd0-4efb-a418-be3ade8dd61a" />
+<img width="765" height="519" alt="image" src="https://github.com/user-attachments/assets/e9b04522-5bd0-4efb-a418-be3ade8dd61a" />
 </p>
 <br />
 
@@ -145,8 +145,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Connect using your MySQL **root username and password**
 - Create a new database called `osTicket`
 <p>
-<img width="1368" height="970" alt="image" src="https://github.com/user-attachments/assets/afbbe192-ffe9-4f9f-9f8c-0c2b19869bc2" />
-<img width="1866" height="1184" alt="image" src="https://github.com/user-attachments/assets/0af5e7fd-dcda-4127-a11d-214d3674ff68" />
+<img width="684" height="485" alt="image" src="https://github.com/user-attachments/assets/afbbe192-ffe9-4f9f-9f8c-0c2b19869bc2" />
+<img width="933" height="592" alt="image" src="https://github.com/user-attachments/assets/0af5e7fd-dcda-4127-a11d-214d3674ff68" />
 <img width="542" height="272" alt="image" src="https://github.com/user-attachments/assets/4c0f1f7d-da4b-41df-9e4c-63c0d2117614" />
 
 </p>
@@ -162,14 +162,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     - MySQL Password: *(your MySQL password)*
 - Click **Install Now**
 <p>
-<img width="1642" height="1486" alt="image" src="https://github.com/user-attachments/assets/1c2bb54b-313d-4206-8124-f96e5a0504b1" />
-<img width="1648" height="650" alt="image" src="https://github.com/user-attachments/assets/c02b022e-5e72-4977-a8cc-1e3d8fc31366" />
+<img width="616" height="557" alt="image" src="https://github.com/user-attachments/assets/1c2bb54b-313d-4206-8124-f96e5a0504b1" />
+<img width="618" height="244" alt="image" src="https://github.com/user-attachments/assets/c02b022e-5e72-4977-a8cc-1e3d8fc31366" />
 </p>
 <br />
 
 Final Result
 <p>
-<img width="1842" height="1644" alt="image" src="https://github.com/user-attachments/assets/61292aee-82a2-4336-9032-7e0b4296a146" />
+<img width="691" height="617" alt="image" src="https://github.com/user-attachments/assets/61292aee-82a2-4336-9032-7e0b4296a146" />
 </p>
 
 - You should see a success message and your new help desk login page:
